@@ -1,10 +1,15 @@
 <?PHP
 
 ini_set('memory_limit','8000M');
-include "functions.php";
+
 include "class.place.php";
 
-$p=new place("place_v5.bin");
+include "config_spacescience.php";
+// include "config_u_eriknstr.php";
+
+$p=new place($archive_file);
+$p->initiate_palette($palette);
+$p->set_frame_details($frame_details);
 
 
 for($i=0;$i<=1000;$i++){
