@@ -56,5 +56,6 @@ Mode of this pixel is color 7 (Grey)
 
 ```
 
+![/r/place edit activity from the spacescience archive](http://i.imgur.com/Xj1YMlk.gifv "/r/space pixel edit activity")
 
 
