@@ -62,7 +62,7 @@ A difference file can be loaded into memory quite quickly, this happens within a
 
 Three main image repositories are available:
 
-
+##/u/eriknstr's Archive
 
 * r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsWEQ0d05DR244Zjg
 * r-place-php binary archive Size:	26.6MB
@@ -79,7 +79,7 @@ Three main image repositories are available:
 * Duration (hours):	66.7
 * Frame every 16.2s
 
-
+##/u/mncke's Archive
 
 * r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsMzM5cEh0QTB3OU0
 * r-place-php binary archive Size:	34.3MB
@@ -96,7 +96,7 @@ Three main image repositories are available:
 * Duration (hours):	71.7
 * Frame every 5.1s
 
-
+##/u/JetBals's Archive
 
 * r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsbEtlTnpZNmFKcmM
 * r-place-php binary archive Size:	31.2MB
