@@ -2,11 +2,10 @@
 
 PHP code to explore the pixel histories in Reddit's /r/place. The code is designed to be run from the command line.
 
-The code is optimised to explore individual pixels through time, as opposed to exploring a single timeframe for the entire image. If you just want to explore the raw images then there are various dumps of the image snapshots available for download (see links to torrent files below).
+This code can be used to make beautiful animations like this http://imgur.com/gallery/Xj1YMlk or it can be used to explore the statistical properties of the /r/place image archives.
 
-Three image archives were pre-processed into compressed difference files. You'll need to download these along with the code. Each archive is slightly different. The characteristics of each of the three archives are described below.
+r-place-php is optimised to explore individual pixels through time, as opposed to exploring a single timeframe for the entire image. If you just want to explore the raw images then there are various dumps of the image snapshots available for download (see links to torrent files below).
 
-A difference file can be loaded into memory quite quickly, this happens within about 1.5 seconds on my laptop. Once loaded, the PHP program has access to all the information it needs to reconstruct the entire series of images from that particular archive.
 
 A simple "hello pixel" program might look somethingn like this:
 
@@ -56,6 +55,11 @@ Mode of this pixel is color 7 (Grey)
 
 ```
 
+Three image archives were pre-processed into compressed difference files. You'll need to download these along with the code. Each archive is slightly different. The characteristics of each of the three archives are described below.
+
+A difference file can be loaded into memory quite quickly, this happens within about 1.5 seconds on my laptop. Once loaded, the PHP program has access to all the information it needs to reconstruct the entire series of images from that particular archive.
+
+
 Three main image repositories are available:
 
 
@@ -68,15 +72,45 @@ Three main image repositories are available:
 * Torrent File:	https://www.nordstroem.no/blob/15/ae/be13635-668247.torrent
 * Reddit Username of torrent seeder:	http://www.reddit.com/u/eriknstr
 * Archive info page:	https://www.reddit.com/r/place/comments/63a47z/bittorrent_magnet_links_for_raw_reddit_format/
-* First Frame Timestamp:	Sat, 01 Apr 2017 11:03:35 +1100
-* Last Frame Timestamp:	Tue, 04 Apr 2017 02:56:17 +1000
+* First Frame Time:	Sat, 01 Apr 2017 11:03:35 +1100
+* Last Frame Time:	Tue, 04 Apr 2017 02:56:17 +1000
 * First UTC timestamp:	1491005015
-* Last UTC timestaamp:	1491245120
+* Last UTC timestamp:	1491245120
 * Duration (hours):	66.7
-* Frame every n seconds:	16.2
+* Frame every 16.2s
 
 
 
+* r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsMzM5cEh0QTB3OU0
+* r-place-php binary archive Size:	34.3MB
+* r-place-php binaryarchive filename:	u_mncke.bin
+* r-place-php config file: config_u_mncke.php
+* Number of images:	50749
+* Torrent File:	http://abra.me/place/place-snaps.torrent
+* Reddit Username of torrent seeder:	http://www.reddit.com/u/mncke
+* Archive info page:	https://www.reddit.com/r/place/comments/6396u5/rplace_archive_update/
+* First Frame Time:	Sat, 01 Apr 2017 06:01:00 +1100
+* Last Frame Time:	Tue, 04 Apr 2017 02:56:23 +1000
+* First UTC timestamp:	1490986860
+* Last UTC timestamp:	1491244860
+* Duration (hours):	71.7
+* Frame every 5.1s
 
 
 
+* r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsbEtlTnpZNmFKcmM
+* r-place-php binary archive Size:	31.2MB
+* r-place-php binaryarchive filename:	spacescience.tech.bin
+* r-place-php config file: config_u_mncke.php
+* Number of images:	24391 (after removing 9 blank images)
+* Torrent File:	http://spacescience.tech/place.torrent
+* Reddit Username of torrent seeder:	http://www.reddit.com/u/JetBalsa
+* Archive info page:	https://www.reddit.com/r/place/comments/639gsw/place_archival_data_megathread/
+* First Frame Time:	first timestamped image at frame 621 is Sat, 01 Apr 2017 10:13:37 +1100
+* Projected first time: Sat, 01 Apr 2017 04:38:09 +1100
+* Last Frame Timestamp:	Tue, 04 Apr 2017 02:55:30 +1000
+* First UTC timestamp:	1491002017
+* Projected first UTC timestamp: 1490981889
+* Last UTC timestamp:	1491239619
+* Duration (hours):	71.6
+* Frame every 10.6s
