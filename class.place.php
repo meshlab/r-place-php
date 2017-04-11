@@ -30,7 +30,10 @@ class place{
 		}
 
 		// $this->initiatePalette();
-		$this->maxframes=24391;
+		
+		// $this->pixel(0,0);
+		// $this->maxframes=count($this->full_pixel_history)-1;
+		$this->maxframes=10000;
 
 	}
 	
@@ -78,6 +81,7 @@ class place{
 	
 	function set_frame_details($frames){
 		$this->frame_details=$frames;
+		$this->maxframes=$frames["maxframes"];
 		
 	}
 	
@@ -127,6 +131,7 @@ class place{
 	function num_edits(){
 		$num_edits=0;
 		for($k=$this->firstframe;$k<$this->lastframe;$k++){
+			
 			if($this->full_pixel_history[$k]!=$this->full_pixel_history[$k+1]){
 				$num_edits++;
 			}

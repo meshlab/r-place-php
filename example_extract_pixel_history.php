@@ -5,8 +5,10 @@ ini_set('memory_limit','8000M');
 include "class.place.php";
 
 
-include "config_spacescience.php";
+// include "config_spacescience.php";
 // include "config_u_eriknstr.php";
+// include "config_u_mncke.php";
+include "config_spacescience_extrapolated_times.php";
 
 
 date_default_timezone_set('Australia/Sydney');
