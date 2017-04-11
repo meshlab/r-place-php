@@ -97,7 +97,7 @@ Three main image repositories are available:
 * Duration (hours):	71.7
 * Frame every 5.1s
 
-## /u/JetBals's Archive
+## /u/JetBalsa's Archive
 
 * r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsbEtlTnpZNmFKcmM
 * r-place-php binary archive Size:	31.2MB
