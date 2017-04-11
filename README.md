@@ -69,12 +69,17 @@ Mode of this pixel is color 7 (Grey)
 
 ```
 
-Three image archives were pre-processed into compressed difference files. You'll need to download these along with the code. Each archive is slightly different. The characteristics of each of the three archives are described below.
+Several other examples are provided.
+
+
+## Image Archive Files
+
+Three image archives were pre-processed into compressed difference files. You'll need to download at least one of these and save them into the same directory as the PHP code. Each archive is slightly different. The characteristics of each of the three archives are described below.
 
 A difference file can be loaded into memory quite quickly, this happens within about 1.5 seconds on my laptop. Once loaded, the PHP program has access to all the information it needs to reconstruct the entire series of images from that particular archive.
 
 
-Three main image repositories are available:
+Three image repositories are available:
 
 ## /u/mncke's Archive
 
@@ -138,5 +143,5 @@ This archive had the earliest start time, but the first 600 odd images did not c
 
 
 
-![alt text](http://i.imgur.com/juruTcB.png "Relative coverage of the /r/place image archives")
+![alt text](http://i.imgur.com/qgXCZSs.png "Relative coverage of the /r/place image archives")
 
