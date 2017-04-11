@@ -59,20 +59,20 @@ Mode of this pixel is color 7 (Grey)
 Three main image repositories are available:
 
 
-*Archive filename:	u_eriknstr.bin
-*PHP-Place Binary Archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsWEQ0d05DR244Zjg
-*PHP Place Archive Size:	26.6MB
-*config file: config_u_eriknstr.php
-*Number of Images:	14823
-*Torrent File:	https://www.nordstroem.no/blob/15/ae/be13635-668247.torrent
-*Reddit Username of torrent seeder:	/u/eriknstr
-*Archive info page:	https://www.reddit.com/r/place/comments/63a47z/bittorrent_magnet_links_for_raw_reddit_format/
-*First Frame Timestamp:	Sat, 01 Apr 2017 11:03:35 +1100
-*Last Frame Timestamp:	Tue, 04 Apr 2017 02:56:17 +1000
-*First UTC timestamp:	1491005015
-*Last UTC timestaamp:	1491245120
-*Duration (hours):	66.7
-*Frame every n seconds:	16.2
+* Archive filename:	u_eriknstr.bin
+* PHP-Place Binary Archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsWEQ0d05DR244Zjg
+* PHP-Place Archive Size:	26.6MB
+* PHP-Place config file: config_u_eriknstr.php
+* Number of Images:	14823
+* Torrent File:	https://www.nordstroem.no/blob/15/ae/be13635-668247.torrent
+* Reddit Username of torrent seeder:	/u/eriknstr
+* Archive info page:	https://www.reddit.com/r/place/comments/63a47z/bittorrent_magnet_links_for_raw_reddit_format/
+* First Frame Timestamp:	Sat, 01 Apr 2017 11:03:35 +1100
+* Last Frame Timestamp:	Tue, 04 Apr 2017 02:56:17 +1000
+* First UTC timestamp:	1491005015
+* Last UTC timestaamp:	1491245120
+* Duration (hours):	66.7
+* Frame every n seconds:	16.2
 
 
 
