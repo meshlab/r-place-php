@@ -6,6 +6,7 @@ This code can be used to make beautiful animations like this http://imgur.com/ga
 
 r-place-php is optimised to explore individual pixels through time, as opposed to exploring a single timeframe for the entire image. If you just want to explore the raw images then there are various dumps of the image snapshots available for download (see links to torrent files below).
 
+## Hello Pixel
 
 A simple "hello pixel" program might look somethingn like this:
 
@@ -62,7 +63,7 @@ A difference file can be loaded into memory quite quickly, this happens within a
 
 Three main image repositories are available:
 
-##/u/eriknstr's Archive
+## /u/eriknstr's Archive
 
 * r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsWEQ0d05DR244Zjg
 * r-place-php binary archive Size:	26.6MB
@@ -79,7 +80,7 @@ Three main image repositories are available:
 * Duration (hours):	66.7
 * Frame every 16.2s
 
-##/u/mncke's Archive
+## /u/mncke's Archive
 
 * r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsMzM5cEh0QTB3OU0
 * r-place-php binary archive Size:	34.3MB
@@ -96,7 +97,7 @@ Three main image repositories are available:
 * Duration (hours):	71.7
 * Frame every 5.1s
 
-##/u/JetBals's Archive
+## /u/JetBals's Archive
 
 * r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsbEtlTnpZNmFKcmM
 * r-place-php binary archive Size:	31.2MB
