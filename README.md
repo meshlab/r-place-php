@@ -65,6 +65,25 @@ A difference file can be loaded into memory quite quickly, this happens within a
 
 Three main image repositories are available:
 
+## /u/mncke's Archive
+
+This is the most complete and consistant archive. One frame roughly every 5  seconds of /r/place's existance.
+
+* r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsMzM5cEh0QTB3OU0
+* r-place-php binary archive Size:	34.3MB
+* r-place-php binaryarchive filename:	u_mncke.bin
+* r-place-php config file: config_u_mncke.php
+* Number of images:	50749
+* Torrent File:	http://abra.me/place/place-snaps.torrent
+* Reddit Username of torrent seeder:	http://www.reddit.com/u/mncke
+* Archive info page:	https://www.reddit.com/r/place/comments/6396u5/rplace_archive_update/
+* First Frame Time:	Sat, 01 Apr 2017 06:01:00 +1100
+* Last Frame Time:	Tue, 04 Apr 2017 02:56:23 +1000
+* First UTC timestamp:	1490986860
+* Last UTC timestamp:	1491244860
+* Duration (hours):	71.7
+* Frame every 5.1s
+
 ## /u/eriknstr's Archive
 
 * r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsWEQ0d05DR244Zjg
@@ -82,29 +101,17 @@ Three main image repositories are available:
 * Duration (hours):	66.7
 * Frame every 16.2s
 
-## /u/mncke's Archive
 
-* r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsMzM5cEh0QTB3OU0
-* r-place-php binary archive Size:	34.3MB
-* r-place-php binaryarchive filename:	u_mncke.bin
-* r-place-php config file: config_u_mncke.php
-* Number of images:	50749
-* Torrent File:	http://abra.me/place/place-snaps.torrent
-* Reddit Username of torrent seeder:	http://www.reddit.com/u/mncke
-* Archive info page:	https://www.reddit.com/r/place/comments/6396u5/rplace_archive_update/
-* First Frame Time:	Sat, 01 Apr 2017 06:01:00 +1100
-* Last Frame Time:	Tue, 04 Apr 2017 02:56:23 +1000
-* First UTC timestamp:	1490986860
-* Last UTC timestamp:	1491244860
-* Duration (hours):	71.7
-* Frame every 5.1s
 
 ## /u/JetBalsa's Archive
+
+This archive had the earliest start time, but the first 600 odd images did not contain a timestamp. Times for these images were estimated by matching with the other archives and projecting backwards.
 
 * r-place-php binary archive:	https://drive.google.com/uc?export=download&id=0BwlPeQzg23lsbEtlTnpZNmFKcmM
 * r-place-php binary archive Size:	31.2MB
 * r-place-php binaryarchive filename:	spacescience.tech.bin
-* r-place-php config file: config_u_mncke.php
+* r-place-php config file: config_spacescience.php
+* r-place-php config file with projected times: config_spacescience_projected_times.php
 * Number of images:	24391 (after removing 9 blank images)
 * Torrent File:	http://spacescience.tech/place.torrent
 * Reddit Username of torrent seeder:	http://www.reddit.com/u/JetBalsa
