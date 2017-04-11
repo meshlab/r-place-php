@@ -14,15 +14,26 @@ A simple "hello pixel" program might look somethingn like this:
 
 ```php
 <?PHP
-ini_set('memory_limit','1024M'); // increase PHP's memory limits, make this even bigger if you have more RAM
+// increase PHP's memory limits, make this even bigger if you have more RAM
+ini_set('memory_limit','1024M'); 
 include "class.place.php";
-include "config_spacescience.php"; // this contains all the palette and frame infrmation for the spacescience archive
-$p=new place($archive_file);   // instantiate the object, specifying the archive file to use
-$p->initiate_palette($palette);  // initiate the pallette and frame information
+
+// this contains all the palette and frame infrmation for the spacescience archive
+include "config_spacescience.php"; 
+
+// instantiate the r-place-php object, specifying the archive file to use
+$p=new place($archive_file);   
+
+// initiate the pallette and frame information
+$p->initiate_palette($palette);  
 $p->set_frame_details($frame_details);
-$irand=mt_rand(0,999);   // select a random pixel
+
+ // select a random pixel
+$irand=mt_rand(0,999);  
 $jrand=mt_rand(0,999);
-echo $p->pixelinfo($irand,$jrand);  // outputs information about the selected pixel to the console
+
+// output information about the selected pixel to the console
+echo $p->pixelinfo($irand,$jrand);  
 ?>
 ```
 
@@ -124,3 +135,8 @@ This archive had the earliest start time, but the first 600 odd images did not c
 * Last UTC timestamp:	1491239619
 * Duration (hours):	71.6
 * Frame every 10.6s
+
+
+
+![alt text](http://i.imgur.com/juruTcB.png "Relative coverage of the /r/place image archives")
+
