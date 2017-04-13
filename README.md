@@ -2,6 +2,13 @@
 
 PHP code to explore the pixel histories in Reddit's /r/place. The code is designed to be run from the command line.
 
+If you are unamiliar with /r/place here are a couple of descriptive articles about it:
+
+http://www.newsweek.com/reddit-place-internet-experiment-579049
+
+http://sudoscript.com/reddit-place/
+
+
 This code can be used to make beautiful animations like this http://imgur.com/gallery/Xj1YMlk or it can be used to explore the statistical properties of the /r/place image archives.
 
 r-place-php is optimised to explore individual pixels through time, as opposed to exploring a single timeframe for the entire image. If you just want to explore the raw images then there are various dumps of the image snapshots available for download (see links to torrent files below).
