@@ -14,6 +14,9 @@ This code can be used to make beautiful animations like this http://imgur.com/ga
 
 ![Screenshot of The Matrix styled /r/place activity animation](http://i.imgur.com/ffhD8pK.png)
 
+
+# Motivation
+
 r-place-php is optimised to explore individual pixels through time, as opposed to exploring a single timeframe for the entire image. If you just want to explore the raw images then there are various dumps of the image snapshots available for download (see links to torrent files below).
 
 r-place-php can load an entire /r/place history file into memory in under 2 seconds, and can extract a single pixel's complete history from the in-memory archive in around 5 ms.
