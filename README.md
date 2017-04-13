@@ -142,7 +142,7 @@ This archive had the earliest start time, but the first 600 odd images did not c
 * r-place-php config file: config_spacescience.php
 * r-place-php config file with projected times: config_spacescience_projected_times.php
 * Number of images:	24391 (after removing 9 blank images)
-* Torrent File:	http://spacescience.tech/place.torrent
+* Torrent File available at https://archive.org/details/place_201704
 * Reddit Username of torrent seeder:	http://www.reddit.com/u/JetBalsa
 * Archive info page:	https://www.reddit.com/r/place/comments/639gsw/place_archival_data_megathread/
 * First Frame Time:	first timestamped image at frame 621 is Sat, 01 Apr 2017 10:13:37 +1100
