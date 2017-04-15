@@ -91,6 +91,7 @@ Three image archives were pre-processed into compressed difference files. You'll
 
 A difference file can be loaded into memory quite quickly, this happens within about 1.5 seconds on my laptop. Once loaded, the PHP program has access to all the information it needs to reconstruct the entire series of images from that particular archive.
 
+There is also a sqlite database containing about 7.1 million individual user pixel placements made available by /u/ELFABEHT_SOOP available here: https://www.reddit.com/r/dataisbeautiful/comments/631ogf/activity_at_each_pixel_of_rplace_fixed_oc/dfrhjak/ but the user level data starts between 4 to 10 hours after the image repositories detailed below. The user level data is not used by r-place-php scripts at this stage.
 
 Three image repositories are available:
 
@@ -155,6 +156,7 @@ This archive had the earliest start time, but the first 600 odd images did not c
 * Frame every 10.6s
 
 
+Here is a plot showing the collection start time and rate of collection of all three repositories:
 
 ![alt text](http://i.imgur.com/qgXCZSs.png "Relative coverage of the /r/place image archives")
 
